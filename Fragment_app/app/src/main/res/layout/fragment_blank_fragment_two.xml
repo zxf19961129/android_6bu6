@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/two"
+    tools:context="qq.app01.com.fragment_app.BlankFragment_two">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/one"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="同城爱玩"
+            android:textColor="@color/baise"
+            android:gravity="center"
+            />
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>

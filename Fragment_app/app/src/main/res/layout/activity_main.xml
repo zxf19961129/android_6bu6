@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="qq.app01.com.fragment_app.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fra01"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin01"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/hui"
+        android:paddingTop="5dp">
+        <LinearLayout
+            android:id="@+id/shouye"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/shouye_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shouye_weixuanzhong"/>
+            <TextView
+                android:id="@+id/shouye_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tongcheng"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/tongcheng_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongchengaiwan_weixuanzhong"/>
+            <TextView
+                android:id="@+id/tongcheng_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同城爱玩"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/youhuizhuanqu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/youhui_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/youhuizhuanqu_weixuanzhong"/>
+            <TextView
+                android:id="@+id/youhui_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="优惠专区"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wode"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/wode_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wode_weixuanzhong"/>
+            <TextView
+                android:id="@+id/wode_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
